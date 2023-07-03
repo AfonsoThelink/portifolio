@@ -27,16 +27,42 @@ header img {
     height: 150px;
     border-radius: 50%;
     border: 5px solid #1ae0fa;
+    margin-bottom: 30px;
+}
+.projetos{
+    display: grid;
+    grid-template-columns: 300px 2fr;
+}
+.conteudo_projeto{
+    margin-left: 30px;
+}
+.projetos{
+    border: 5px solid rgba(255, 255, 255, 0.678);
+    border-radius: 7px;
 }
 .center{
     text-align: center;
 }
+.imagem_projeto img{
+    width: 300px;
+    height: 300px;
+}
+.conteudo_projeto p{
+    font-size: 20px;
+}
+.conteudo_projeto a{
+ color: #1ae0fa;
+ align-items: center;
+}
+
 footer img {
         width: 30px;
         height: 30px;}
     
 footer{
             display: flex;
+            bottom: 0;
+            position: fixed;
             justify-content: center;
         }
     
