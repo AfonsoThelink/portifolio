@@ -77,3 +77,22 @@ footer p{
 footer a:hover{
     color: #1ae0fa;
 }
+@media (width <= 900px) {
+    main{
+        width: 300px;
+    }
+    .projetos{
+        display: flex;
+    }
+    .conteudo_projeto{
+        flex-direction: column;
+        height: 400px;
+    }
+    .imagem_projeto{
+        height: 150px;
+    }
+    .imagem_projeto img{
+        width: 150px;
+        height: 150px;
+    }
+}
